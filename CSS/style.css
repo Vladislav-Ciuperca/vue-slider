@@ -16,6 +16,11 @@
     width: 700px;
     height: 300px;
     position: relative;
+    display: none;
+}
+
+.active {
+    display: block;
 }
 
 .item img {
@@ -55,7 +60,8 @@
     opacity: 1;
 }
 
-.prev, .next {
+.prev,
+.next {
     width: 20px;
     height: 20px;
     margin: 10px 0;
