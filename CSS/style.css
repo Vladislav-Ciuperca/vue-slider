@@ -19,9 +19,6 @@
     display: none;
 }
 
-.active {
-    display: block;
-}
 
 .item img {
     width: 100%;
@@ -108,4 +105,12 @@ oppure i caratteri ∧ (&and;) e ∨ (&or;)
     bottom: 35%;
     left: 50%;
     transform: translate(-50%) rotate(135deg);
+}
+
+.text {
+    display: none;
+}
+
+.active {
+    display: block;
 }
